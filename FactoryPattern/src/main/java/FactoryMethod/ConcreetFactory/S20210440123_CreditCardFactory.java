@@ -8,6 +8,6 @@ import FactoryMethod.S20210440123_IPaymentFactory;
 public class S20210440123_CreditCardFactory implements S20210440123_IPaymentFactory {
     @Override
     public S20210440123_IPayment createPayment() {
-        return (S20210440123_IPayment) new S20210440123_CreditCard();
+        return new S20210440123_CreditCard();
     }
 }
