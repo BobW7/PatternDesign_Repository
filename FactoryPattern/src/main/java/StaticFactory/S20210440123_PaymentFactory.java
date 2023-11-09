@@ -1,6 +1,7 @@
 package StaticFactory;
 
 import StaticFactory.Concreet.S20210440123_CreditCard;
+import StaticFactory.Concreet.S20210440123_PayPal;
 import StaticFactory.Concreet.S20210440123_WeChat;
 import StaticFactory.Concreet.S20210440123_ZhiFuBao;
 
@@ -15,6 +16,10 @@ public class S20210440123_PaymentFactory {
 
     public static S20210440123_Payments createCreditCard() {
         return new S20210440123_CreditCard();
+    }
+
+    public static S20210440123_Payments createPayPal() {
+        return new S20210440123_PayPal();
     }
 
 }
