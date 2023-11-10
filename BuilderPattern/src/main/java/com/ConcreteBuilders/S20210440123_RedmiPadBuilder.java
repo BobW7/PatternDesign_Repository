@@ -20,6 +20,10 @@ public class S20210440123_RedmiPadBuilder extends S20210440123_PadBuilder {
 
     @Override
     public void buildPen(boolean isInclude) {
-        super.buildPen(isInclude);
+        if(isInclude){
+            super.buildPen(true);
+            pad.setPen("红米版本笔");
+        }
+
     }
 }

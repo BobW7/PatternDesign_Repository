@@ -20,6 +20,9 @@ public class S20210440123_HuaweiPadBuilder extends S20210440123_PadBuilder {
 
     @Override
     public void buildPen(boolean isInclude) {
-        super.buildPen(isInclude);
+        if (isInclude) {
+            super.buildPen(true);
+            pad.setPen("华为版本笔");
+        }
     }
 }
