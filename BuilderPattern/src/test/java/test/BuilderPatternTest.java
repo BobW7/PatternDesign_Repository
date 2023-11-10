@@ -7,7 +7,7 @@ import com.S20210440123_Director;
 import com.S20210440123_Pad;
 import org.junit.Test;
 
-public class BuilerPatternTest {
+public class BuilderPatternTest {
     @Test
     public void Test() {
         //创建引导者
