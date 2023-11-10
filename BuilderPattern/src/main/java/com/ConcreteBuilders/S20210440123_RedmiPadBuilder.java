@@ -20,6 +20,6 @@ public class S20210440123_RedmiPadBuilder extends S20210440123_PadBuilder {
 
     @Override
     public void buildPen(boolean isInclude) {
-        super.buildPen(false);
+        super.buildPen(isInclude);
     }
 }
