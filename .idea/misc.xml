@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/FactoryPattern/pom.xml" />
         <option value="$PROJECT_DIR$/BuilderPattern/pom.xml" />
         <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
+        <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
       </list>
     </option>
   </component>
