@@ -11,6 +11,7 @@
         <module name="AdapterPattern" />
         <module name="SingletonPattern" />
         <module name="BridgePattern" />
+        <module name="DecoratorPattern" />
       </profile>
     </annotationProcessing>
   </component>

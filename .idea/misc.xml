@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
         <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
         <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/DecoratorPattern/pom.xml" />
       </list>
     </option>
   </component>
