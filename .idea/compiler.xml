@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FactoryPattern" />
-        <module name="BuilderPattern" />
-        <module name="AdapterPattern" />
         <module name="SingletonPattern" />
         <module name="BridgePattern" />
         <module name="DecoratorPattern" />
+        <module name="CompositePattern" />
+        <module name="FactoryPattern" />
+        <module name="BuilderPattern" />
+        <module name="AdapterPattern" />
       </profile>
     </annotationProcessing>
   </component>
