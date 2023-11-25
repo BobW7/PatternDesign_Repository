@@ -4,7 +4,6 @@ import com.bob.component.composites.S20210440123_Composite;
 import com.bob.component.leaves.S20210440123_Student;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
@@ -55,31 +54,19 @@ public class CompositePatternTest {
     }
 
     @Test
-    public void Test() {
+    public void test() {
         String config = "D:\\IDEAProjectSource\\PatternDesign_Repository\\CompositePattern\\src\\main\\resources\\config.properties";
-        // 读取配置文件
-        Properties properties = new Properties();
+
         try (InputStream input = Files.newInputStream(Paths.get(config))) {
+            Properties properties = new Properties();
             properties.load(input);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-        // 获取配置的类名和方法名
-        String className = properties.getProperty("class");
-        String methodName = properties.getProperty("method");
+            String className = properties.getProperty("class");
+            String methodName = properties.getProperty("method");
 
-        try {
-            // 加载类
             Class<?> clazz = Class.forName(className);
-
-            // 实例化对象
             Object object = clazz.getDeclaredConstructor().newInstance();
-
-            // 获取方法
             Method method = clazz.getMethod(methodName);
-
-            // 调用方法
             method.invoke(object);
         } catch (Exception e) {
             e.printStackTrace();
