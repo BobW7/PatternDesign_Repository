@@ -7,12 +7,13 @@
         <option value="$PROJECT_DIR$/StaticFactory/pom.xml" />
         <option value="$PROJECT_DIR$/FactoryPattern/pom.xml" />
         <option value="$PROJECT_DIR$/BuilderPattern/pom.xml" />
-        <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
         <option value="$PROJECT_DIR$/BridgePattern/pom.xml" />
         <option value="$PROJECT_DIR$/AdapterPattern/pom.xml" />
         <option value="$PROJECT_DIR$/DecoratorPattern/pom.xml" />
         <option value="$PROJECT_DIR$/CompositePattern/pom.xml" />
         <option value="$PROJECT_DIR$/FlyweightPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/ObserverPattern/pom.xml" />
       </list>
     </option>
   </component>
