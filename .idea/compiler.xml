@@ -15,6 +15,7 @@
         <module name="FactoryPattern" />
         <module name="BuilderPattern" />
         <module name="AdapterPattern" />
+        <module name="MementoPattern" />
       </profile>
     </annotationProcessing>
   </component>
