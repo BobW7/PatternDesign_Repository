@@ -1,9 +1,9 @@
 package com.bob.strategies;
 
-import com.bob.OrderProcessingStrategy;
+import com.bob.S0123_OrderProcessingStrategy;
 
 // 数字商品订单处理策略
-public class DigitalProductOrderProcessingStrategy implements OrderProcessingStrategy {
+public class S0123_DigitalProductOrderProcessingStrategy implements S0123_OrderProcessingStrategy {
     @Override
     public void validatePaymentDetails() {
         System.out.println("Validating payment details for digital products...");

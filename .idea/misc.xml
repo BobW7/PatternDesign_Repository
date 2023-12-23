@@ -15,7 +15,16 @@
         <option value="$PROJECT_DIR$/SingletonPattern/pom.xml" />
         <option value="$PROJECT_DIR$/ObserverPattern/pom.xml" />
         <option value="$PROJECT_DIR$/MementoPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/StrategyPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/MyPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/PatternCombination/pom.xml" />
+        <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/MyPattern/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

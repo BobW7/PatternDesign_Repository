@@ -9,14 +9,20 @@
         <module name="ObserverPattern" />
         <module name="FlyweightPattern" />
         <module name="SingletonPattern" />
-        <module name="BridgePattern" />
         <module name="DecoratorPattern" />
-        <module name="CompositePattern" />
+        <module name="ChainOfResponsibilityPattern" />
         <module name="FactoryPattern" />
+        <module name="StrategyPattern" />
+        <module name="BridgePattern" />
+        <module name="CompositePattern" />
         <module name="BuilderPattern" />
         <module name="AdapterPattern" />
         <module name="MementoPattern" />
+        <module name="PatternCombination" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyPattern" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

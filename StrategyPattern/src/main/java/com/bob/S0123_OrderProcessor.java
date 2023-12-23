@@ -1,10 +1,10 @@
 package com.bob;
 
 // 订单处理类
-public class OrderProcessor {
-    private OrderProcessingStrategy strategy;
+public class S0123_OrderProcessor {
+    private S0123_OrderProcessingStrategy strategy;
 
-    public void setStrategy(OrderProcessingStrategy strategy) {
+    public void setStrategy(S0123_OrderProcessingStrategy strategy) {
         this.strategy = strategy;
     }
 

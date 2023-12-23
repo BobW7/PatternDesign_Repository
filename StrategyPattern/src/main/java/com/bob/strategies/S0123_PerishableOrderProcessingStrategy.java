@@ -1,9 +1,9 @@
 package com.bob.strategies;
 
-import com.bob.OrderProcessingStrategy;
+import com.bob.S0123_OrderProcessingStrategy;
 
 // 易腐货物订单处理策略
-public class PerishableOrderProcessingStrategy implements OrderProcessingStrategy {
+public class S0123_PerishableOrderProcessingStrategy implements S0123_OrderProcessingStrategy {
     @Override
     public void validatePaymentDetails() {
         System.out.println("Validating payment details for perishable goods...");

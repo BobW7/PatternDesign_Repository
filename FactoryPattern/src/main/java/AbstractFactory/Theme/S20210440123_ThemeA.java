@@ -12,16 +12,14 @@ public class S20210440123_ThemeA implements S20210440123_IThemeFactory {
     }
 
     @Override
-    public S20210440123_FontA GetFont() {
+    public void GetFont() {
         S20210440123_FontA fontA = new S20210440123_FontA();
         System.out.println(fontA.CreateFont());
-        return fontA;
     }
 
     @Override
-    public S20210440123_ColorA GetColor() {
+    public void GetColor() {
         S20210440123_ColorA colorA = new S20210440123_ColorA();
         System.out.println(colorA.CreateColor());
-        return colorA;
     }
 }

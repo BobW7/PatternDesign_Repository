@@ -1,7 +1,7 @@
 package com.bob;
 
 // 订单处理策略接口
-public interface OrderProcessingStrategy {
+public interface S0123_OrderProcessingStrategy {
     // 验证付款细节
     void validatePaymentDetails();
     // 扣除付款
