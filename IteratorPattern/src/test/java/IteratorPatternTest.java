@@ -14,28 +14,16 @@ public class IteratorPatternTest {
         S0123_AbstractFactory samsungFactory = new S0123_SamsungFactory();
         S0123_Television samsungTV = samsungFactory.createTelevision();
 
-
         S0123_AbstractFactory sonyFactory = new S0123_SonyFactory();
         S0123_Television sonyTV = sonyFactory.createTelevision();
-
 
         S0123_AbstractFactory lgFactory = new S0123_LGFactory();
         S0123_Television lgTV = lgFactory.createTelevision();
 
-
         // 添加频道
-        samsungTV.addChannel(new S0123_Channel("CCTV-1"));
-        samsungTV.addChannel(new S0123_Channel("CCTV-2"));
-        samsungTV.addChannel(new S0123_Channel("CCTV-3"));
+        insertChannels(samsungTV, sonyTV, lgTV);
 
-        sonyTV.addChannel(new S0123_Channel("BBC"));
-        sonyTV.addChannel(new S0123_Channel("CNN"));
-        sonyTV.addChannel(new S0123_Channel("FOX"));
-
-        lgTV.addChannel(new S0123_Channel("Discovery"));
-        lgTV.addChannel(new S0123_Channel("National Geographic"));
-        lgTV.addChannel(new S0123_Channel("Animal Planet"));
-
+        // 创建遥控器
         S0123_RemoteControl samsungRemoteControl = samsungFactory.createRemoteControl(samsungTV);
         S0123_RemoteControl sonyRemoteControl = sonyFactory.createRemoteControl(sonyTV);
         S0123_RemoteControl lgRemoteControl = lgFactory.createRemoteControl(lgTV);
@@ -56,5 +44,19 @@ public class IteratorPatternTest {
         lgRemoteControl.nextChannel();
         lgRemoteControl.prevChannel();
         lgRemoteControl.turnOff();
+    }
+
+    private static void insertChannels(S0123_Television samsungTV, S0123_Television sonyTV, S0123_Television lgTV) {
+        samsungTV.addChannel(new S0123_Channel("CCTV-1"));
+        samsungTV.addChannel(new S0123_Channel("CCTV-2"));
+        samsungTV.addChannel(new S0123_Channel("CCTV-3"));
+
+        sonyTV.addChannel(new S0123_Channel("BBC"));
+        sonyTV.addChannel(new S0123_Channel("CNN"));
+        sonyTV.addChannel(new S0123_Channel("FOX"));
+
+        lgTV.addChannel(new S0123_Channel("Discovery"));
+        lgTV.addChannel(new S0123_Channel("National Geographic"));
+        lgTV.addChannel(new S0123_Channel("Animal Planet"));
     }
 }

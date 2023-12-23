@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/pom.xml" />
         <option value="$PROJECT_DIR$/CommandPattern/pom.xml" />
         <option value="$PROJECT_DIR$/IteratorPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/MediatorPattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
