@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ObserverPattern" />
         <module name="FlyweightPattern" />
+        <module name="CommandPattern" />
         <module name="SingletonPattern" />
         <module name="DecoratorPattern" />
         <module name="ChainOfResponsibilityPattern" />

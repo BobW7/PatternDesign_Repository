@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/MyPattern/pom.xml" />
         <option value="$PROJECT_DIR$/PatternCombination/pom.xml" />
         <option value="$PROJECT_DIR$/ChainOfResponsibilityPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandPattern/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
