@@ -28,7 +28,7 @@ public class CommandPatternTest {
         invoker.addCommand(fanCommand);
         invoker.addCommand(acCommand);
         //执行开机命令
-        invoker.executeCommands();
+        invoker.sendCommands();
 
         invoker.addCommand(lightCommand);
         invoker.addCommand(fanCommand);

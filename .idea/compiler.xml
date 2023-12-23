@@ -13,6 +13,7 @@
         <module name="DecoratorPattern" />
         <module name="ChainOfResponsibilityPattern" />
         <module name="FactoryPattern" />
+        <module name="IteratorPattern" />
         <module name="StrategyPattern" />
         <module name="BridgePattern" />
         <module name="CompositePattern" />

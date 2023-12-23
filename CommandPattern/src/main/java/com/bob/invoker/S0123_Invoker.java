@@ -13,7 +13,7 @@ public class S0123_Invoker {
     }
 
 
-    public void executeCommands() {
+    public void sendCommands() {
         for (S0123_Command command : commands) {
             command.execute();
         }
